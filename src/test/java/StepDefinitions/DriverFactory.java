@@ -25,6 +25,7 @@ public class DriverFactory {
     @AfterMethod
     public static void quitDriver() throws Exception {
         driverThread.get().quitDriver();
-        
+        driverThread.get().quitDriver();
+        driverThread.get().quitDriver();
     }
 }
