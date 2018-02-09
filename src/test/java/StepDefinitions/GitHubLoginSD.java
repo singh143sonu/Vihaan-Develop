@@ -14,7 +14,8 @@ public class GitHubLoginSD {
     @Given("^user is on github homepage$")
     public void user_is_on_github_homepage() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
-        sf.createDriver();
+        sf.openBrowser();
+        sf.openGithub();
         sf.ishomepageDisplayed();
     }
 
